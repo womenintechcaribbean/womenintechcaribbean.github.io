@@ -1,0 +1,269 @@
+[
+    {
+        "name": "Sowmya Thottambeti",
+        "bio": "Sowmya is currently a software engineer at Nike’s European headquarters. Prior to this, she worked as a data engineer and software engineer at Nike, Cisco, and Intel, respectively. She had earned a bachelor’s degree in Electronics and Telecommunications, then shortly after, a master’s degree in Computer Science where she specialized in Systems Modeling and Data Analysis. \nAs an aspiring tech entrepreneur and hobbyist mobile app developer,  Sowmya is continuously on the look out for exciting projects and initiatives to take on during her free time. She prides herself in her unparalleled life experiences and is an advocate for doing things the unconventional way. Sowmya is an excellent example of someone that marches to the beat of her own drum  — pioneering the future of innovation in The Bahamas whilst bridging the gap between technological possibilities and people.",
+        "image": null,
+        "homeCountry": "The Bahamas",
+        "currentLocation": "Amsterdam, Netherlands",
+        "currentPosition": "Software Engineer @ Nike",
+        "category": [
+            "Journey into Tech",
+            "Soft Skills",
+            "UI/UX Design"
+        ],
+        "contact": {
+            "email": "sowmya6598@gmail.com",
+            "linkedIn": "sowmyathottambeti",
+            "instagram": "scottie.poppin",
+            "twitter": null
+        },
+        "speakingExperience": "Intermediate",
+        "description": null,
+        "links": null,
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Keynote Speeches",
+            "Fireside Chats",
+            "Workshops"
+        ]
+    },
+    {
+        "name": "Nakeshia Latoya Lorde",
+        "bio": "Bachelor of Science Electrical and Computer Engineering with 5 years experience as a Software Engineer",
+        "image": "/images/speakers/nakeshia_latoya_lorde.png",
+        "homeCountry": "Barbados",
+        "currentLocation": "",
+        "currentPosition": "",
+        "category": [
+            "Journey into Tech"
+        ],
+        "contact": {
+            "email": null,
+            "linkedIn": null,
+            "instagram": null,
+            "twitter": null
+        },
+        "speakingExperience": "Beginner",
+        "description": "Girls in Tech",
+        "links": null,
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Keynote Speeches",
+            "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Raquel Seville",
+        "bio": "Raquel has a passion for pulling insights from data and has worked for large multi-national Telecoms serving customers in the Caribbean and Latin America. She has over a decade of experience working with and leading big data and analytics teams. She has designed and implemented data warehouses, management reports, predictive analytics and executive dashboards. She is author of recently published book, SAP OpenUI5 for Mobile BI and Analytics. \nRaquel is an international speaker and has spoken at conferences in the US, Spain, South Africa, Australia and her home country, Jamaica. Her recent presentation at BI+A 2018 was ranked #1 out of more than 100 speakers (Check her slideshare for presentations https://www.slideshare.net/mobile/RaquelSeville). She is a SAP Mentor and founder of BI blog exportBI.com, where you can find her sharing ideas about all things data. \nRaquel is a keen advocate of BI user adoption and having not only the right tools but the right talent and processes to ensure maximum return on BI investment. She recently helped to launch BI Brainz Caribbean, where she serves as the CEO. Similar to her passion for data, is a love for food, music and globetrotting. You can follow her @quelzseville and connect with her on LinkedIn.",
+        "image": null,
+        "homeCountry": "Jamaica",
+        "currentLocation": " ",
+        "currentPosition": "",
+        "category": [
+            "Data & Analytics",
+            "Journey into Tech",
+            "Soft Skills",
+            "Entrepreneurship"
+        ],
+        "contact": {
+            "email": null,
+            "linkedIn": "raquelseville",
+            "instagram": "quelzseville",
+            "twitter": "quelzseville"
+        },
+        "speakingExperience": "Seasoned",
+        "description": "I have spoken at various conferences globally, hosted panel discussions and discussions.",
+        "links": [
+            "https://events.sap.com/teched/en/session/28896",
+            "https://www.youtube.com/watch?v=8e94kSp4kXk&index=2&list=PLpQebylHrdh5iHxXV5dN66xTiw-ce-C-1",
+            "https://www.youtube.com/watch?v=qE9hUPXbOF0&feature=youtu.be",
+            "https://events.sap.com/teched/en/session/41074 https://www.youtube.com/watch?v=QLnVkYNFd8w&t=17s",
+            "https://www.youtube.com/watch?time_continue=52&v=KMWRekmsn0g&feature=emb_logo",
+            "https://www.youtube.com/watch?v=BtD8ak-SfNw&feature=emb_logo",
+            "https://blogs.sap.com/2015/06/01/raquel-savilles-sap-success-story/",
+            "https://de.espresso-tutorials.com/SAP_Books_0173.php",
+            "http://digjamaica.com/m/blog/business-intelligence/",
+            "http://www.odbms.org/2017/03/qa-with-data-scientists-raquel-seville/",
+            "http://womenintech.ycdiapps.com/2018/06/21/career-bi/",
+            "https://www.ict-pulse.com/2019/04/ictp-050-mining-data-business-intelligence-raquel-seville-bi-brainz/",
+            "https://soundcloud.com/naomiambrose/an-interview-with-jamaican https://naomilambrose.com/ladyrising/",
+            "https://www.amazon.com/Raquel-Seville/e/B075H347ZQ/ref=dp_byline_cont_ebooks_1",
+            "https://www.amazon.com/gp/product/B07693KX73/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0",
+            "https://github.com/raquelseville https://www.michaelmanagement.com/instructor/raquel-seville",
+            "https://www.linkedin.com/learning/introduction-to-sap-openui5-apps"
+        ],
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Keynote Speeches",
+            "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Kalifa Damani",
+        "bio": "Kalifa is a researcher at the EdTech Hub (https://edtechhub.org/). Her research experience spans the fields of psychology, education and international development, with particular focus on the role of technology and media in those spheres. Kalifa has previously worked as a researcher at the University of the West Indies, where she also completed her BSc in Psychology, and at the University of Cambridge, where she also completed an MPhil at the Psychometrics Centre and a PhD at the centre for Research for Equitable Access and Learning.",
+        "image": "/images/speakers/khalifa_damani.jpg",
+        "homeCountry": "Trinidad and Tobago",
+        "currentLocation": "Cambridge, UK",
+        "currentPosition": "Researcher at the EdTech Hub",
+        "category": [
+            "Diversity and Inclusion",
+            "Non-Technical Talks",
+            "Educational Technology",
+            "Social Media & Social Psychology"
+        ],
+        "contact": {
+            "email": "kalifa.damani@edtechhub.org",
+            "linkedIn": null,
+            "instagram": null,
+            "twitter": "KalifaDamani"
+        },
+        "speakingExperience": "Intermediate",
+        "description": null,
+        "links": null,
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Gabrielle Abraham",
+        "bio": "Education- MSc Geospatial Science \nBsc - geography \nCurrent position- GIS research associate \nOwner of Incognito Experience event company in Dominica \nPast- GIS technician",
+        "image": null,
+        "homeCountry": "Dominica",
+        "currentLocation": "",
+        "currentPosition": "",
+        "category": [
+            "GIS",
+            "Event Planning"
+        ],
+        "contact": {
+            "email": null,
+            "linkedIn": null,
+            "instagram": null,
+            "twitter": null
+        },
+        "speakingExperience": "Intermediate",
+        "description": "Online public zoom interviews, Caribbean Girls Hack speaker",
+        "links": [
+            "https://youtu.be/CsNX5HTW984"
+        ],
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Majella Mark",
+        "bio": "Majella Mark is a researcher, writer and artist, who have worked as a data analyst in the media tech industry for many years. She has conducted numerous workshops and collaborations such as The Pvssy Plate Painting Party, The Wakanda Workshop, Colorism in Conversation with The Guardian and Black Women's Day of Meditation. When she is not running a workshop or writing she is managing data analytics for the women's health justice group Womanly. Her published work can be seen in digital publications such as CultureBanx and An Injustice. She is also a member of the Black Women's Blueprint. You can follow her on Twitter @MajellaMark and Instagram @MetGodShesBlack. You can also find out more about Majella on www.majellamark.com",
+        "image": null,
+        "homeCountry": "Grenada",
+        "currentLocation": "",
+        "currentPosition": "",
+        "category": [
+            "Social Justice Issues (WOC)"
+        ],
+        "contact": {
+            "email": null,
+            "linkedIn": null,
+            "instagram": "metgodshesblack",
+            "twitter": "majellamark"
+        },
+        "speakingExperience": "Intermediate",
+        "description": "The most recent speaking engagement was this month with The Make it Different Foundation during their \"What is Color? What is Race?\" - History of Race Origins event held at the Southington Community Cultural Arts (SoCCA) where I spoke about the different between \"Passing\" and \"Blackfishing\". \nIn June I moderated four panels for the SMART Caribbean Fora: --Virtual Reality - Is there a space for the Caribbean reality --Climate Reality - AR and VR Perspective --New Technologies coming from global founders in AR and VR space --All About APPS \nI was a keynote for the She's Royal Panel for CITE NYC's Women History Month event for the Caribbeans In Tech organization back in March where I spoke about successes and failures and the pressures of being first generation off the island with high expectations put upon you. \nI have run the art workshop \"The Pvssy Plate Painting Party\" for years creating space for participants to discuss complex topics such as molestation, gender equality, trans gender identity, abortion etc.",
+        "links": [
+            "https://youtu.be/7NR2GnOUHlA"
+        ],
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Keynote Speeches",
+            "Fireside Chats",
+            "Workshops"
+        ]
+    },
+    {
+        "name": "Leanna Dixon",
+        "bio": "Leanna is an Associate Software Developer at an Asset Management company called Insight Investment. Leanna’s journey to a Developer began 2 years prior, during her undergraduate Biochemistry degree at the University of Manchester. After selecting a 3rd year project where she had to quickly learn to code to analyse her data, her love for coding bloomed. Whilst working full time as a Science Technician for one year, and then a Programmes manager at Generating Genius’, she completed virtual and physical courses from CodeFirstGirls, General Assembly, and Coursera, hackathons from CodeUntapped, events from CodeBox and becoming one of Google and the Dots Fast Track 50 professionals before starting her first Tech job at Insight Investment. Leanna is also a STEMGirls Ambassador and Alumni at Generating Genius, promoting girls and boys from ethnic minorities to pursue Science.",
+        "image": null,
+        "homeCountry": "UK/Jamaica",
+        "currentLocation": "",
+        "currentPosition": "",
+        "category": [
+            "Soft Skills",
+            "Diversity and Inclusion",
+            "Changing Careers"
+        ],
+        "contact": {
+            "email": null,
+            "linkedIn": "leannapdixon",
+            "instagram": null,
+            "twitter": null
+        },
+        "speakingExperience": "Intermediate",
+        "description": "Talks about D&I, Black scientists and journey to tech at conferences (~200 people), events (~100 people) and Webinars (<200 people).",
+        "links": null,
+        "appearances": [
+            "Short Talks",
+            "Podcasts"
+        ]
+    },
+    {
+        "name": "Melyssa Minto",
+        "bio": "Melyssa Minto is from Jamaica, but was raised in Durham, NC. She received a B.S. in Mathematics and Biology at Meredith College. Currently, she is a PhD Candidate in the Computational Biology & Bioinformatics program at Duke University where she is researching how to use Bayesian statistics to model gene activating and silencing modifications bound to DNA throughout the maturation of neurons in the West Lab. Melyssa is passionate about empowering brown and black youth in Tech. She regularly volunteers with Black Girls Code and in local high schools.",
+        "image": "/images/speakers/melyssa_minto.jpg",
+        "homeCountry": "Jamaica",
+        "currentLocation": "Durham, USA",
+        "currentPosition": "Computational Biology & Bioinformatics Graduate Student at Duke University",
+        "category": [
+            "Computational Genomics",
+            "Graduate School",
+            "Journey to Computational Biology"
+        ],
+        "contact": {
+            "email": "melyssa.minto@duke.edu",
+            "linkedIn": null,
+            "instagram": null,
+            "twitter": "melyssaminto"
+        },
+        "speakingExperience": "Beginner",
+        "description": "3 years of science talks. 5 years of personal journey talks",
+        "links": null,
+        "appearances": [
+            "Short Talks",
+            "Podcasts",
+            "Fireside Chats"
+        ]
+    },
+    {
+        "name": "Chandelle O'Neil",
+        "bio": "I graduated with distinction in a Bachelors Degree in Mechanical Engineering from the University of Guelph honours program in 2017. During my course of study, I focused on Sustainable Energy Systems Design including waste heat recovery projects, methane biodigesters as well as several solar PV and wind turbine installations. \nI currently continue to attain relevant hands-on experience with my personal enterprise Mawu Energy Services, which offers energy assessments and audits as well as consultancy on process engineering for waste reduction. As a champion of protecting the environment, I am passionate about innovative technologies in renewable energy and I hope to use the knowledge I acquire to create greater efficiencies of resources used in our daily lives.",
+        "image": null,
+        "homeCountry": "Trinidad & Tobago",
+        "currentLocation": "",
+        "currentPosition": "",
+        "category": [
+            "Climate",
+            "Sustainable Energy"
+        ],
+        "contact": {
+            "email": "chandelleoneil@gmail.com",
+            "linkedIn": "chandelleoneil",
+            "instagram": null,
+            "twitter": null
+        },
+        "speakingExperience": "Intermediate",
+        "description": "Youth Climate Experts with Building Bridges 4 Climate Action",
+        "links": [
+            "https://klimadelegation.de/en/bb4ca-young-climate-experts/"
+        ],
+        "appearances": [
+            "Short Talks",
+            "Fireside Chats"
+        ]
+    }
+]

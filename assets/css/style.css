@@ -1,0 +1,103 @@
+#wrapper {
+  background: url(/Vorderrhein.svg);
+  background-size: 200%;
+  background-position: bottom;
+}
+
+.content-wrapper {
+  margin: auto;
+  padding-top: 4rem;
+}
+
+.col-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+h3 {
+  font-size: 2.1rem;
+  color: #f2849e;
+  margin-bottom: 2.0rem;
+}
+
+.col-1 img {
+  margin: auto;
+  border-radius: 0.2rem;
+  width: 23vw;
+  filter: drop-shadow(5px 5px 8px rgba(0, 0, 0, 0.25));
+  box-shadow: -1px 0px 3px rgba(0, 0, 0, 0.25);
+}
+
+h4 span {
+  font-weight: 400;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+h5 {
+  text-transform: capitalize;
+  font-size: 1.35rem;
+  font-weight: 400;
+}
+
+h5 span {
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: #f2849e;
+}
+
+h2,
+h4,
+h6 {
+  text-transform: capitalize;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.bio,
+.col-2,
+.experience,
+.links {
+  width: 40vw;
+  border: 2px solid rgba(95, 95, 95, 0.267);
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.15),
+    -2px -2px 4px 3px rgba(210, 210, 210, 0.404);
+  background: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.links h5 {
+  margin-top: 1rem;
+}
+
+.links {
+  overflow: hidden;
+}
+
+.links,
+.contacts h5 {
+  padding-left: 1.5rem;
+}
+
+.hover:hover {
+  background: #f2849e;
+  color: white;
+  transform: scale(1.05, 1.05);
+}
+
+.hover:hover > h3 {
+  color: white !important;
+}
+
+.hover:hover > h4 span {
+  color: white !important;
+}
+
+.hover:hover > h5 span {
+  color: white !important;
+}

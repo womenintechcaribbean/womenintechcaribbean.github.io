@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>WiT Caribbean</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="title">Women In Tech Caribbean</span>
+								</a>
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner" >
+							<header>
+								<h1>Speaker Slate<br/>
+								#WomenInTechCaribbean</h1>
+								<p>Interested in joining our speaker slate? Click <a href="https://github.com/womenintechcaribbean/speakers">here</a> to submit your pull request.</p>
+							</header>
+							<section class="tiles" id="app" >
+
+								<script>
+									fetch("speakers.json")
+										.then(response => response.json())
+										.then(data => data.map(speaker => {
+											document.getElementById("app").innerHTML +=
+											`<article class="style2">
+												<span class="image">
+													<img src="images/pic03.jpg" alt="" />
+												</span>
+												<a href="speaker.html?name=${speaker.name}">
+													${speaker.category.sort().map(x => {
+														return `${x}`
+													}).join(' || ')}
+												</a>
+											</article>`
+										}))
+								</script>
+							</section>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<!-- <span class="symbol"><img src="images/logo.png" alt="" /></span> -->
+								<h2>Follow Us!</h2>
+								<ul class="icons">
+									<li><a href="https://twitter.com/womencaribbean" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.instagram.com/womenintechcaribbean/" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/womenintechcaribbean" target="_blank" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:caribbeanwit@gmail.com" target="_blank" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>WiT Caribbean</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<section class="tiles" id="app">
+								
+								
+								
+								<script>
+									function parseURLParams(url) {
+										var queryStart = url.indexOf("?") + 1,
+											queryEnd   = url.indexOf("#") + 1 || url.length + 1,
+											query = url.slice(queryStart, queryEnd - 1),
+											pairs = query.replace(/\+/g, " ").split("&"),
+											parms = {}, i, n, v, nv;
+
+										if (query === url || query === "") return;
+
+										for (i = 0; i < pairs.length; i++) {
+											nv = pairs[i].split("=", 2);
+											n = decodeURIComponent(nv[0]);
+											v = decodeURIComponent(nv[1]);
+
+											if (!parms.hasOwnProperty(n)) parms[n] = [];
+											parms[n].push(nv.length === 2 ? v : null);
+										}
+										return parms;
+									};
+
+									var urlString = window.location.href;
+									urlParams = parseURLParams(urlString);
+
+									var target = urlParams['name'][0];
+
+									function fetchUserData(target) {
+										var People = {};
+										fetch("speakers.json")
+										.then(response => response.json())
+										.then(
+											data => data.filter(person => { 
+												if (person['name'].includes(target)){
+													console.log(person)
+													document.getElementById("app").innerHTML +=
+														`
+														<div class="content-wrapper">
+															<div class="inner-row">
+																<div class="col-1">
+																${person["image"] != null ? `<img src="${person["image"]}"alt="${person["name"]}"> </img>` : `<span></span>`}
+                               									</div>
+															
+															<div class="col-2 hover">
+																<h3> ${person["name"]}</h3>
+																<h4>Current Position: <span>${person["currentPosition"]}</span></h4>
+																<h4>Home Country: <span>${person["homeCountry"]}</span></h4>
+																<h4>Location: <span>${person["currentLocation"]}</span></h4>
+															</div>
+															<div class="bio hover">
+																<h4>About Me</h4>
+																<p>${person['bio'].replaceAll('\n', '<br /><br />').replaceAll('--', '<li />')}</p>
+															</div>
+															<div class="experience hover">
+																<h5>My speaking experience is <span>${person['speakingExperience']}</span></h5>
+																${person['description'] != null ? `<h5><span>Description of Speaking Experience: </span> ${person['description'].replaceAll('\n', '<br /><br />').replaceAll('--', '<li />')}</h5>` : `<span></span>`}
+																<h5>I am open to doing ... 
+																	<span>${person['appearances'].map(apperance => {
+																	return (`${apperance}`)
+																}).join(', ')}</span></h5>
+															</div>
+															<div class="links">
+																${person['links'] != null ? `
+																	<h4>Relevant Links: </h4>
+																		<ol>
+																			${person['links'].map(link => {
+																				return (
+																					`
+																						<li>
+																							<a href="${link}" target= "_blank">${link}"</a>
+																						</li>
+																					`	
+																				)
+																			}).join(' ')}
+																		</ol>
+																	`: `<h4>Relevant Links: </h4><p>Nothing to Show </p>`
+																}
+																<hr/>
+																<h4>Let's Connect!</h4>
+																<ul class="icons">
+			
+																	${person['contact']['linkedIn'] != null ? `<li><a href="mailto:${person['contact']['email']}" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>` : `<span></span>`
+																	}
+
+																	${person['contact']['linkedIn'] != null ? `<li><a href="https://www.linkedin.com/in/${person['contact']['linkedIn']}" target="_blank" class="icon brands style2 fa-linkedin"><span class="label">GitHub</span></a></li> ` : `<span></span>`
+																	}
+ 
+																	${person['contact']['instagram'] != null ? `<li><a href="https://www.instagram.com/${person['contact']['instagram']}" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li> ` : `<span></span>`
+																	}
+
+																	${person['contact']['twitter'] != null ? `<li><a href="https://twitter.com/${person['contact']['twitter']}" target="_blank" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li> ` : `<span></span>`
+																	}
+																	
+																</ul>
+															</div>
+														</div>
+														`
+												}
+											}
+										))
+										.catch(
+											error => {
+												console.log(error);
+												window.location.replace("/");
+											}
+										)
+									};
+
+									
+
+									var miss = fetchUserData(target);
+									console.log(miss);
+
+								</script>
+							</section>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
