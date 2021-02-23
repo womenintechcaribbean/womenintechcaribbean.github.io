@@ -63,6 +63,7 @@ h6 {
   width: auto;
   border: 2px solid rgba(95, 95, 95, 0.267);
   border-radius: 0.4rem;
+  word-break: break-word;
   padding: 1.5rem;
   margin-top: 1.5rem;
   box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.15),

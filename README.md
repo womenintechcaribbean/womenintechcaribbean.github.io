@@ -44,7 +44,7 @@ Create an object for yourself with the following properties:
 
 - **description** *(string)* -- short description of your speaking experience, if any. otherwise, put `null`. **Tip:** Adding `\n` before a character will start a new paragraph and adding `--` before a character will add a bullet point.
 
-- **links** *(array of string)* -- share any relevant urls to past talks, if any. otherwise, put `null`.
+- **links** *(array of string)* -- share any relevant urls to past talks, if any. otherwise, put `null`. don't just copy the url directly from the browser but instead, use the condensed url provided (if available) when sharing the content.
 
 - **appearances** *(array of string)* -- what type of appearances are you willing to partake in?
 
