@@ -10,7 +10,8 @@ The Speaker Slate was created to showcase the amazing talent we have within our 
 
 ### :sparkles: Step 1
 
-Checkout the main branch & create a feature branch locally
+Clone the repository on your local machine & create a feature branch locally
+
 
 ### :sparkles: Step 2
 
@@ -50,7 +51,7 @@ Create an object for yourself with the following properties:
 
 ### :sparkles: Step 4 
 
-Upon completion, push the code to your feature branch and create a pull request against the main branch. The title of the pull request should be "Submission for firstName lastName".
+Upon completion, commit the changes to your local feature branch, push the code to your remote feature branch and then, create a pull request against the main branch. The title of the pull request should be "Submission for firstName lastName".
 
 
 ### :sparkles: Step 5
