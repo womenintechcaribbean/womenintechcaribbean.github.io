@@ -135,17 +135,17 @@
     {
         "name": "Gabrielle Abraham",
         "bio": "Education- MSc Geospatial Science \nBsc - geography \nCurrent position- GIS research associate \nOwner of Incognito Experience event company in Dominica \nPast- GIS technician",
-        "image": null,
+        "image": "/images/speakers/gabrielle_abraham.jpg",
         "homeCountry": "Dominica",
-        "currentLocation": "",
-        "currentPosition": "",
+        "currentLocation": "Dominica",
+        "currentPosition": "Geospatial Scientist",
         "category": [
             "GIS",
             "Event Planning"
         ],
         "contact": {
-            "email": null,
-            "linkedIn": null,
+            "email": "gabraham@monainformatixltd.com",
+            "linkedIn": "gabrielle-c-abraham-87795166",
             "instagram": null,
             "twitter": null
         },
